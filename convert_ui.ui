@@ -18,10 +18,6 @@
   <property name="windowTitle">
    <string>Class Label Editor</string>
   </property>
-  <property name="windowIcon">
-   <iconset>
-    <normaloff>zz.png</normaloff>zz.png</iconset>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
