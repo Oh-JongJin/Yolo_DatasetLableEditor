@@ -28,7 +28,6 @@ class Window(QWidget, Ui_Form):
         #     print('filename:', self.label_path)
 
     def start(self):
-        self.progressBar.setValue(0)
         if self.radioButton_delete.isChecked():
             mb = QMessageBox.question(self, 'Sure?',
                                       f'Is it correct you chose to delete class "{self.spinBox_deleteclass.value()}" '

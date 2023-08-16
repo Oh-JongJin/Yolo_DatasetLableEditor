@@ -16,9 +16,9 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QFrame, QGroupBox, QHBoxLayout,
-    QLabel, QProgressBar, QPushButton, QRadioButton,
-    QSizePolicy, QSpacerItem, QSpinBox, QTextEdit,
-    QVBoxLayout, QWidget)
+    QLabel, QPushButton, QRadioButton, QSizePolicy,
+    QSpacerItem, QSpinBox, QTextEdit, QVBoxLayout,
+    QWidget)
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -147,12 +147,6 @@ class Ui_Form(object):
 
 
         self.verticalLayout_2.addWidget(self.groupBox)
-
-        self.progressBar = QProgressBar(Form)
-        self.progressBar.setObjectName(u"progressBar")
-        self.progressBar.setValue(0)
-
-        self.verticalLayout_2.addWidget(self.progressBar)
 
         self.line_2 = QFrame(Form)
         self.line_2.setObjectName(u"line_2")
